@@ -8,7 +8,7 @@ accordeonButtons.forEach((btn) => {
 			button.nextElementSibling.classList.add('hidden');
 		})
 
-		btn.classList.add('feature__link_active');
-		btn.nextElementSibling.classList.remove('hidden');
+		btn.classList.toggle('feature__link_active');
+		btn.nextElementSibling.classList.toggle('hidden');
 	});
 });
